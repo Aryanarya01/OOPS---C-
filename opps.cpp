@@ -474,7 +474,7 @@
 
 
 
-//qs
+//ques
 
 #include<iostream>
 #include<string>
@@ -484,14 +484,14 @@ class Base {
 public:
 void show() { cout << "Base" << endl; }
 };
-class Derived : public Base {
+class Derived : public Base { 
 public:
 void show() { cout << "Derived" << endl; }
 };
 int main() {
 
 Base* b;
-Derived d;
+Derived d; 
 b = &d;
 b->show();
 return 0;
